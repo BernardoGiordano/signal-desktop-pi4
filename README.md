@@ -14,4 +14,4 @@ Tested on Ubuntu 21.04.
 
 ## Credits
 
-Huge thanks to [@lsfxz (@ohfp on Gitlab)](https://gitlab.com/ohfp/pinebookpro-things/-/blob/master/signal-desktop/PKGBUILD) for providing most of the source code than is available in this repo.
+Huge thanks to [@lsfxz (@ohfp on Gitlab)](https://gitlab.com/ohfp/pinebookpro-things/-/blob/master/signal-desktop/PKGBUILD) for providing most of the source code that is available in this repo.
