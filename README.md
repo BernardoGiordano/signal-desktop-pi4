@@ -6,7 +6,9 @@ This solution is based upon this [PKGBUILD](https://gitlab.com/ohfp/pinebookpro-
 
 This repository provides all the patches found in the original project, plus a new patch fixing `node-abi` version inside the `yarn.lock` file.
 
-**Important note**: this script also installs `nvm` and `rustup`. If you already have those software installed, please skip installation of those commenting out lines 7 and 10 in the script.
+- **Important note 1**: this script also installs `nvm` and `rustup`. If you already have those software installed, please skip installation of those commenting out lines 7, 10, 11 and 14 in the script.
+
+- **Important note 2**: node 14.16.0 must be used. Install with `nvm install 14.16.0` and `nvm use 14.16.0`.
 
 Tested on Ubuntu 21.04.
 

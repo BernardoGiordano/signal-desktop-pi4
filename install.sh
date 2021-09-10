@@ -6,6 +6,10 @@ sudo apt-get install -y curl git git-lfs make build-essential python3 python-is-
 echo "installing nvm..."
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 
+echo "installing nvm 14.16.0..."
+nvm install 14.16.0
+nvm use 14.6.0
+
 echo "installing rustup..."
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
@@ -34,10 +38,6 @@ cd ..
 
 echo "extracting Signal source code..."
 tar xzf v5.17.0.tar.gz
-
-echo "installing nvm 14.16.0..."
-nvm install 14.16.0
-nvm use 14.6.0
 
 echo "running git-lfs..."
 git lfs install
