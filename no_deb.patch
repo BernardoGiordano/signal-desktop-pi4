@@ -1,0 +1,25 @@
+diff --git a/package.json b/package.json
+index d9cefd8..45a80bc 100644
+--- a/package.json
++++ b/package.json
+@@ -351,19 +351,10 @@
+         "node_modules/libsignal-client/build/*.node"
+       ],
+       "target": [
+-        "deb"
++        "dir"
+       ],
+       "icon": "build/icons/png"
+     },
+-    "deb": {
+-      "depends": [
+-        "libnotify4",
+-        "libxtst6",
+-        "libnss3",
+-        "libasound2",
+-        "libxss1"
+-      ]
+-    },
+     "protocols": {
+       "name": "sgnl-url-scheme",
+       "schemes": [
