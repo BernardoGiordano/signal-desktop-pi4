@@ -8,7 +8,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 
 echo "installing nvm 14.16.0..."
 nvm install 14.16.0
-nvm use 14.6.0
+nvm use 14.16.0
 
 echo "installing rustup..."
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
